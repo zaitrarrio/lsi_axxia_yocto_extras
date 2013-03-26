@@ -16,8 +16,10 @@ SRCREV_machine_${MACHINE}="${AUTOREV}"
 SRCREV_meta="${AUTOREV}"
 LOCALCOUNT = "0"
 
-KSRC_linux_yocto_3_4 = "/home/pbutler/work/repos/lsi_axxia_yocto/"
-SRC_URI_${MACHINE} = "git://${KSRC_linux_yocto_3_4};protocol=file;bareclone=1;branch=${KBRANCH};name=machine"
+#KSRC_linux_yocto_3_4 = "/home/pbutler/work/repos/lsi_axxia_yocto/"
+#SRC_URI_${MACHINE} = "git://${KSRC_linux_yocto_3_4};protocol=file;bareclone=1;branch=${KBRANCH};name=machine"
+KSRC_linux_yocto_3_4 = "git@github.com/lsigithub/lsi_axxia_yocto.git"
+SRC_URI_${MACHINE} = "git://${KSRC_linux_yocto_3_4};protocol=ssh;bareclone=1;branch=${KBRANCH};name=machine"
 
 SRC_URI_${MACHINE} += "file://defconfig"
 
