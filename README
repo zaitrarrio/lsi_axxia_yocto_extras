@@ -1,7 +1,42 @@
 meta-lsi
 ==========
 
-This is the location for LSI maintained BSPs.
+This is the official OpenEmbedded/Yocto BSP layer for LSI platforms.
 
-Please see the README files contained in the individual BSP layers for
-BSP-specific information.
+Supported MACHINES:
+
+	elpaso
+	acp3400dus
+	acp3400dustb
+	acp3400duw2
+	acp3400tp1
+	lsisim
+ 
+Sources
+-------
+
+git://git.yoctoproject.org/meta-lsi
+http://git.yoctoproject.org/git/meta-lsi
+
+Dependencies
+------------
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+branch: master
+revision: HEAD
+
+Patches
+-------
+
+Please submit any patches against this BSP to the Yocto mailing list
+(meta-lsi@yoctoproject.org) and cc: the maintainer:
+
+Maintenance
+-----------
+
+Maintainer: Paul Butler <paul.butler@windriver.com>
+
+Please see the meta-lsi/MAINTAINERS file for more details.
+

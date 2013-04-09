@@ -1,22 +1,8 @@
 This file contains a list of BSP maintainers for the BSPs contained in
 the meta-lsi repository.
 
-Please submit any patches against meta-lsi BSPs to the Yocto mailing
-list (yocto@yoctoproject.org).
-
-If you have problems with or questions about a particular BSP, feel
-free to contact the maintainer directly (cc:ing the Yocto mailing list
-puts it in the archive and helps other people who might have the same
-questions in the future), but please try to do the following first:
-
-  - look in the Yocto Project Bugzilla
-    (http://bugzilla.yoctoproject.org/) to see if a problem has
-    already been reported
-
-  - look through recent entries of the Yocto mailing list archives
-    (https://lists.yoctoproject.org/pipermail/yocto/) to see if other
-    people have run into similar problems or had similar questions
-    answered.
+Please submit any patches against meta-lsi BSPs to the mailing
+list (meta-lsi@yoctoproject.org).
 
 Descriptions of section entries:
 
