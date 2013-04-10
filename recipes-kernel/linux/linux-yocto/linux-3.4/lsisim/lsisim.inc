@@ -1,1 +1,1 @@
-KBRANCH_${MACHINE} = "standard/lsi/axm55xx"
+KBRANCH_${MACHINE} = "lsi_axm55xx"
